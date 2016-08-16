@@ -9,6 +9,7 @@
 	-webkit-background-size: cover;
 	position: relative;
 	z-index: 2;
+	overflow: hidden;
 }
 
 .header .wrapper {
@@ -33,6 +34,7 @@
     font: normal bold 15px RobotoBold;
     text-decoration: none;
     color: white;
+    width: 100%;
 }
 
 .seotoaster {
