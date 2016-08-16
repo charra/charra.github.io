@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Test_for_SEOTOASTER_Shvets</title>        
+        
+        <link rel="stylesheet" href="css/body.css" />
+        <link rel="stylesheet" href="css/styles-header.css" />
+        <link rel="stylesheet" href="css/styles-content.css" />
+        <link rel="stylesheet" href="css/styles-footer.css" />
+        <link rel="stylesheet" href="css/styles-form.css" />
+        <link rel="stylesheet" href="css/styles-mobile.css" />
+        <link rel="stylesheet" href="css/jquery.mmenu.all.css" />
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.js"></script>
+        <script type="text/javascript" src="js/jquery.mmenu.all.min.js"></script>
+        <script type="text/javascript" src="js/styles.js"></script>        
+        
+    </head>
+    <body>
+	   <header class="header page-height clearfix">
+	   <div class="wrapper">                
+            <div class="mobile-bar">
+                <a href="#mobile-menu">MENU</a>
+            </div>
+            <nav  id="mobile-menu">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">ABOUT US</a></li>
+                    <li><a href="/">DOWNLOAD</a></li>
+                    <li><a href="/">DEMO</a></li>
+                    <li><a href="/">PLUG-INS</a></li>
+                </ul>
+            </nav>
+                <a href="/" id="logo" class="logo"><img src="images/bg/logo-header.png" alt="logo" /></a>
+            <div class="seotoaster">
+                <a href="/">Seotoster</a>
+            </div>
+            <nav class="menu-dekstop">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">ABOUT US</a></li>
+                    <li><a href="/">DOWNLOAD</a></li>
+                    <li><a href="/">DEMO</a></li>
+                    <li><a href="/">PLUG-INS</a></li>
+                </ul>
+            </nav>
+		</div>
+	   </header>
+    	<div class="wrapper clearfix">
+            <main class="content">
+                <aside class="sidebar">
+                        <img src="images/imgbanner.jpg" alt="Bridge" />
+                </aside>
+                    <article class="main">
+                        <h1>ABOUT US</h1>
+                        <h3>
+                            Seotoaster is the most advanced <br/>Seo CMS &amp; Ecommerce web site builder. It is also free and open source.
+                        </h3>
+                        
+                        <p>Easily create and select product listings styles, product landing page, and even<br/> 
+                            checkout pages.<br/></p>
+                                         
+                        <p><img src="images/imgcontent.jpg" style="float: right; margin-top:5px; margin-right: -34px; padding-left: 12px;" alt="Street" />Build your own dashboards with a powerful theme based 
+                            store reporting system or just use ours.
+                             <br/>Extend your store with gateways, shipping quotes from carriers, and 
+                            merchandising plugins.</p>
+                        
+                        <p>Automated creation of microdata product landing page, star rating &amp; reviewing widgets.</p> 
+                        
+                        
+                        <p>Built-in quote system for service businesses, B2B and high-end 
+                            product sales. Build product options that modify prices &amp; weights in a snap, save them to library for use across your product catalog.<br/></p>
+                          
+                        <ul>
+                            <li>No layout limitation &amp; unbreakable theming</li>
+                            <li>Pre-coded widgets</li>
+                            <li>Powerful plugin system</li>
+                            <li>5X speed media server</li>
+                            <li>W3C compliant HTML output</li>
+                        </ul>
+                    </article>
+            </main>
+        </div>
+    	<div class="wrapper clearfix">
+             <section class="footer">
+                 <div class="item icon-pencil">
+                     <h4>Website Designers &amp; Agencies</h4>
+                     <p>Create or make your existing designs fully editable in no time, distinguish yourself from the competition and increase your margins by delivering built-in world-class SEO to your clients.</p>
+                 </div>
+                 <div class="item icon-net">
+                     <h4>Multi-sites Owners</h4>
+                     <p>Create or make your existing designs fully editable in no time, distinguish yourself from the competition and increase your margins by delivering built-in world-class SEO to your clients.</p>
+                 </div>
+                 <div class="item icon-gear">
+                     <h4>Website Developers</h4>
+                     <p>Based on PHP 5, MySQL 5, &amp; Zend, SEOTOASTER is full OOP E-commerce CMS with a tight core. We ship with Jquery, in-line user editing, and a concise new gen admin interface.</p>
+                 </div>
+                 <div class="item icon-comp">
+                     <h4>Websites Owners</h4>
+                     <p>Enjoy more traffic, leads and sales for your B2B website or web store with built-in marketing. Learn to edit your website in 2 minutes.Out  of the box, SEOTOASTER just works.</p>
+                 </div>
+             </section>  
+        </div>
+    	<div class="wrapper clearfix">
+            <section class="form">
+                <h2>CONTACT US</h2>
+                <p>Send your details to get more information.</p>
+                <form action="/" method="post">
+                    <div class="name">
+                        <label for="name">Name</label><br/>
+                        <input required="required" name="name" id="name" maxlength="128" placeholder="Put your First name" />
+                    </div>
+                    <div class="email">
+                        <label for="email">E-mail</label><br/>
+                        <input required="required" name="email" id="email" maxlength="128" placeholder="Put your real address" />
+                    </div>
+                    <div class="message">
+                        <label for="message">Message</label><br/>
+                        <textarea required="required" name="message" id="message" cols="58" rows="5" placeholder="Put your message"></textarea>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" class="button" name="op" value="SUBMIT" />
+                    </div>
+                </form>
+            </section>
+        </div>
+       <script> 
+            function changeHeight(portraitOrient) { 
+            var elem = document.querySelector(".page-height"); 
+                if (document.documentElement.clientHeight > document.documentElement.clientWidth) 
+                elem.style.height = document.documentElement.clientWidth + "px"; 
+                else 
+                elem.style.height = document.documentElement.clientHeight + "px"; 
+                } 
+            window.addEventListener("resize", changeHeight); 
+            window.addEventListener("load", changeHeight); 
+       </script>  
+    </body>
+</html>
+       
