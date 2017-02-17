@@ -1,0 +1,297 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    background-color: black;
+    min-height: 1000px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-width: 1400px;
+}
+
+.header_top {
+    height: 55px;
+    margin: 0;
+    padding: 0;
+    margin-left: 260px;
+    margin-right: 300px;
+    min-width: 600px;
+}
+.logo {
+    float: left;
+    height: 55px;
+    width: 200px;
+    background: url(imgs/logo.png) no-repeat;
+    background-size: cover;
+}
+.login_form {
+    float: right;
+    margin-top: 18px;
+}
+.login_form_email,
+.login_form_password {
+    display: inline-block;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #8c8c8c;
+}
+.login_form_field1,
+.login_form_field2 {
+    height: 13px;
+    width: 100px;
+}
+.login_form_field1 {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.login_form_field2 {
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.login_form_button {
+    height: 17px;
+    width: 45px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to bottom, #50b914, #126a04);
+    box-shadow: 0px 0px 0px #676767;
+}
+
+.header_main {
+    /*height: 260px;*/
+    background: url(imgs/header_background.png) no-repeat;
+    background-size: cover;
+}
+.header_main_pict {
+    padding: 0;
+    float: right;
+    /*display: inline-block;*/
+    /*vertical-align: top;*/
+    height: 260px;
+    width: 260px;
+    background: url(imgs/fractal_right.png) no-repeat;
+    background-position: 50% -20%;
+}
+.header_main video{
+    float: left;
+    padding-top: 20px;
+    margin-left: 0;
+}
+.header_main_attracitons {
+    height: 220px;
+    margin-left: 300px;
+}
+.header_main_attracitons .text {
+    float: left;
+    width: 380px;
+    color: white;
+    text-align: justify;
+    margin-right: 30px;
+    margin-top: 20px;
+    min-width:450px;
+}
+.header_main_attracitons .b1,
+.header_main_attracitons .b2 {
+    position: relative;
+    left: 290px;
+    bottom: 10px;
+    height: 22px;
+    width: 45px;
+    background-color: #35970d;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #486a3a;
+}
+.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 260px;
+    clear: both;
+    position: relative;
+    top: 1px;
+}
+.main-menu li {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 7px 25px;
+}
+.main-menu li a {
+    text-decoration:none;
+    color: white;
+}
+
+.content {
+    /*height: 500px;*/
+    background: url(imgs/tree.png) no-repeat;
+    background-position: 95% 100%;
+    overflow: hidden;
+}
+.content_left {
+    width: 260px;
+    float: left;
+    background: url(imgs/fractal_left.png) no-repeat;
+    background-position: 50% -20%;
+    height: 300px;
+}
+.content_center {
+    /*width: 470px;*/
+    display: inline-block;
+    color: #98d374;
+    width: 50%;
+}
+.content_center h1, .content_center h2 {
+    color: white;
+}
+.content_center a {
+    color: #51bb0f;
+}
+.content_center_quote {
+    border: 3px solid #999999;
+    padding: 0;
+}
+.content_center_quote_header {
+    margin: 0;
+    background-image: linear-gradient(to bottom, #5d5959, #3f3838);
+    padding: 10px 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+.content_center_quote_text {
+    margin: 0;
+    padding: 15px;
+    background-color: #389103;
+    color: white;
+}
+.content_center_signup {
+    background-color: #dedede;
+    border: 1px solid #999999;
+    text-align: center;
+    color: #333333;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.content_center_signup h2 {
+    color: #333333;
+    display: inline-block;
+    text-align: center;
+}
+.content_center_signup_form {
+    width: 320px;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: left;
+    overflow: hidden;
+}
+.signup_form_name,
+.signup_form_email {
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-right: -45px;
+    font-weight: bold;
+    width: 105px;
+}
+.signup_form_field1,
+.signup_form_field2 {
+    display: inline-block;
+    height: 20px;
+    width: 231px;
+}
+.signup_form_button {
+    width: 300px;
+    height: 30px;
+    color: white;
+    background-image: linear-gradient(to bottom, #50b914, #126a04);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.content_right {
+    /*float: right;*/
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 50px;
+    padding-bottom: 0;
+}
+.content_right_menu {
+    width: 300px;
+    border: 3px solid #999999;
+    margin: 20px 10px;
+    margin-left: 50px;
+    font-size: 80%;
+    line-height: 130%;
+}
+.content_right_menu_header {
+    margin: 0;
+    background-image: linear-gradient(to bottom, #5d5959, #3f3838);
+    padding: 5px 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+.content_right_menu_text {
+    text-align: left;
+    margin: 0;
+    padding: 15px;
+    background-color: #389103;
+    color: white;
+}
+.content_right_menu_text span{
+    margin: 0;
+    pagging: 0;
+    color: #333333;
+}
+.content_right_menu_button {
+    border: 3px solid #999999;
+    text-align: left;
+    width: 278px;
+    margin-left: 50px;
+    margin-top: -10px;
+    background-image: linear-gradient(to bottom, #5d5959, #3f3838);
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
+}
+.content_right_menu_button .circle {
+    display: inline-block;
+    vertical-align: middle;
+    background: url(imgs/circle.png) no-repeat;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.footer {
+    height: 52px;
+    background-image: linear-gradient(to bottom, #50b914, #126a04);
+    padding-left: 260px;
+    padding-right: 300px;
+    text-align: center;
+}
+.footer_left {
+    float: left;
+    margin-top: 18px;
+    margin-left: 7px;
+    color: white;
+}
+.footer_left > a {
+    color: #23da08;
+}
+.footer_left .lnk {
+    color: white;
+}
+.footer_center {
+    display: inline-block;
+    margin-top: 18px;
+    color: #466a42;
+}
+.footer_right {
+    float: right;
+    margin-top: 18px;
+    color: white;
+}
+
