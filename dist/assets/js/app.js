@@ -3,24 +3,16 @@
 var map;
 var coordinates = {};
 
-// function anAsyncCall() {  
 
-function success(pos) {
-  coordinates.longitude = pos.coords.longitude;
-  coordinates.latitude = pos.coords.latitude;
-  
-   //initMap();
-};
 
-var position = navigator.geolocation.getCurrentPosition(success);
-
-function initMap(coord) {
+function initMap() {
+  console.log(coordinates.latitude);
   map = new google.maps.Map(document.getElementById('map'), {
     center: {
-    lat: +coord.latitude, lng: +coord.longitude
+    lat: +coordinates.latitude, lng: +coordinates.longitude
     //lat: 50.01491644, lng: 36.22078389
     },
-    zoom: 14,
+    zoom: 16,
     zoomControl: true,
     zoomControlOptions: {
       style: google.maps.ZoomControlStyle.DEFAULT,
@@ -38,9 +30,14 @@ function initMap(coord) {
     overviewMapControl: true
   });
 }
-//initMap(coordinates);
 
+function success(pos) {
+  coordinates.longitude = pos.coords.longitude;
+  coordinates.latitude = pos.coords.latitude;  
+  initMap();
+};
 
+var position = navigator.geolocation.getCurrentPosition(success);
 
 
 
