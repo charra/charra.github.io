@@ -38,7 +38,7 @@ function initMap(coord) {
     overviewMapControl: true
   });
 }
-initMap(coordinates);
+//initMap(coordinates);
 
 
 
