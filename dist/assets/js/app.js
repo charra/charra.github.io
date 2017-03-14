@@ -20,7 +20,7 @@ var position = navigator.geolocation.getCurrentPosition(success);
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     center: {
-    lat: coordinates.latitude, lng: coordinates.longitude
+    lat: +coordinates.latitude, lng: +coordinates.longitude
     //lat: 50.01491644, lng: 36.22078389
     },
     zoom: 14,
