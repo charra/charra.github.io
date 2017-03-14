@@ -5,3 +5,14 @@
 .home-footer-button {
   min-width: 150px;
   display: inline-block; }
+
+@media (max-width: 479px) {
+  .mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
+    width: 100%; }
+  .home-footer-button:first-child {
+    margin-bottom: 10px; } }
+
+#map {
+  position: absolute;
+  height: 100vh;
+  z-index: -2; }
