@@ -9,18 +9,15 @@ function success(pos) {
   coordinates.longitude = pos.coords.longitude;
   coordinates.latitude = pos.coords.latitude;
   
-  console.log('Your current position is:');
-  console.log('Latitude : ' + coordinates.latitude);
-  console.log('Longitude: ' + coordinates.longitude);
    //initMap();
 };
 
 var position = navigator.geolocation.getCurrentPosition(success);
 
-function initMap() {
+function initMap(coord) {
   map = new google.maps.Map(document.getElementById('map'), {
     center: {
-    lat: +coordinates.latitude, lng: +coordinates.longitude
+    lat: +coord.latitude, lng: +coord.longitude
     //lat: 50.01491644, lng: 36.22078389
     },
     zoom: 14,
@@ -40,7 +37,8 @@ function initMap() {
     draggable : true,
     overviewMapControl: true
   });
-}	
+}
+initMap(coordinates);
 
 
 
