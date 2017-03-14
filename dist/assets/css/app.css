@@ -17,6 +17,6 @@
     margin-bottom: 10px; } }
 
 #map {
-  position: absolute;
+  position: relative;
   height: 100vh;
   z-index: -2; }
